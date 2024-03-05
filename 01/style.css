@@ -1,0 +1,65 @@
+/* Resets */
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: unset;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  all: unset;
+}
+
+/* Components */
+
+#app {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 100px auto;
+  background-color: rgb(217, 255, 179);
+  border-radius: 4px;
+}
+
+.inputNumber {
+  width: 150px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+
+.inputButton {
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(255, 230, 221);
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.inputButton:hover {
+  background-color: rgb(217, 255, 179);
+  border: 1px solid transparent;
+  color: rgb(217, 255, 179);
+}
+
+.timesList li {
+  line-height: 1.8;
+  font-size: 18px;
+  padding: 4px 0;
+  background-color: rgb(247, 255, 242);
+  margin: 4px 0;
+  border-radius: 6px;
+}
